@@ -305,7 +305,7 @@ console.log(`
     
     Feel free to explore and get in touch!
     📧 nkjai24@gmail.com
-    🔗 https://www.linkedin.com/in/nandha-kumar-178518342
+    🔗 www.linkedin.com/in/nandha-kumar-j-178518342
 `);
 document.addEventListener('DOMContentLoaded', function() {
     const contactDetail = document.querySelector('.contact-detail');
