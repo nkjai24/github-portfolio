@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
         downloadBtn.addEventListener('click', function() {
             // Method 1: Direct file download (recommended)
             const link = document.createElement('a');
-            link.href = 'https://github.com/nkjai24/github-portfolio/blob/main/resume/My%20Final%20Resume%20PG%20(2).pdf'; // Replace with your resume file path
+            link.href = 'https://github.com/nkjai24/github-portfolio/tree/main/resume'; // Replace with your resume file path
             link.download = 'Nandhakumar J Resume.pdf'; // The name for the downloaded file
             document.body.appendChild(link);
             link.click();
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Alternative method if you want to fetch the file dynamically
 function downloadResumeFromURL() {
-    const resumeURL = 'https://github.com/nkjai24/github-portfolio/blob/main/resume/My%20Final%20Resume%20PG%20(2).pdf';
+    const resumeURL = 'https://github.com/nkjai24/github-portfolio/tree/main/resume';
     
     fetch(resumeURL)
         .then(response => response.blob())
@@ -305,7 +305,7 @@ console.log(`
     
     Feel free to explore and get in touch!
     📧 nkjai24@gmail.com
-    🔗 www.linkedin.com/in/nandha-kumar-j-178518342
+    🔗 https://www.linkedin.com/in/nandha-kumar-j-178518342
 `);
 document.addEventListener('DOMContentLoaded', function() {
     const contactDetail = document.querySelector('.contact-detail');
